@@ -1,0 +1,37 @@
+    1  git config --global user.name 'Yaroslav Kolesnikov' 
+    2  git config --global user.email yaroslav.kolesnikov07@gmail.com
+    3  git.clone [200~https://github.com/yaroslavkolesnikov/HW_10.git~
+    4  git clone https://github.com/yaroslavkolesnikov/HW_10.git
+    5  git status 
+    6  cd HW_10/
+    7  git status 
+    8  cd HW_10/
+    9  touch text_ignore.txt
+   10  nano .gitignore 
+   11  nano .gitignore 
+   12  git status 
+   13  git add .gitignore 
+   14  git status 
+   15  git commit 
+   16  git status 
+   17  git commit -m "text_ignore file was created"
+   18  touch main_test.txt
+   19  git add main_test.txt 
+   20  git status 
+   21  git commit -m "main_test.txt was created"
+   22  git checkout -b develop 
+   23  git branch 
+   24  touch develop_test.txt
+   25  git add develop_test.txt 
+   26  git status 
+   27  git commit -m "new branch created"
+   28  git branch 
+   29  nano develop_test.txt
+   30  git status
+   31  git add develop_test.txt 
+   32  git status 
+   33  git commit -m "develop_test.txt file was created and modified"
+   34  git checkout main
+   35  git merge develop 
+   36  git branch 
+   37  history > command_list.csv
